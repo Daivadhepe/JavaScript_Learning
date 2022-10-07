@@ -22,7 +22,7 @@ function daiva(money){
 
    }
    functionName("Pune","khawgalli",22);
-   console.log(value);
+   
 
 function swap_value(arg1,arg2){
 console.log("-------Before swap------");
