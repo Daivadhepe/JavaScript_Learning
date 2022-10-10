@@ -29,7 +29,7 @@ function swap_values(arg1,arg2) {
    console.log(arg1,arg2);
    
 }
-swap_values("Virat","Anushka")
+swap_values("Virat,Anushka")
 swap_values(1000,2000)
 
 
