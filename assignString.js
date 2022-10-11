@@ -2,8 +2,9 @@
 
 var greet = "JavaScript the most popular language";
 console.log(greet);
-var count = greet.length;
 console.log("====Total character available in string ========");
+var count = greet.length;
+
  console.log(count);
  console.log("============ index of character S ==============");
   var position =  greet.indexOf("S");
