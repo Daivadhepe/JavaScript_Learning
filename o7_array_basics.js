@@ -1,4 +1,4 @@
-  var arrayOfNumbers = [1,2,3,7,8,9,3,7 ,1.8];
+  var arrayOfNumbers = [1,2,3,7,8,9,3,7 ];
   console.log(arrayOfNumbers);
   console.log("----------------------------------");
    var arrayLength = arrayOfNumbers.length;
@@ -11,5 +11,15 @@
    console.log(arrayOfNumbers);
 
 console.log("----------------------------------");
+// arrayOfNumbers[3]=77
+console.log(arrayOfNumbers);
 
+// let arrayOfNumbersotherArray = arrayOfNumbers; shallow copy 
+    let otherArray= [...arrayOfNumbers];
+
+
+
+arrayOfNumbers[3]=44;
+console.table();
+console.table(otherArray);
 
