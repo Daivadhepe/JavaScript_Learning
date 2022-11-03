@@ -5,7 +5,7 @@ var myName = "Mohit Sharma";
 console.log( myName);
 console.warn("-------------------------------------");
 let rollNo = 1234;
-
+//let and const is not hoster.
 const PIN_CODE = 431202;
 
 
